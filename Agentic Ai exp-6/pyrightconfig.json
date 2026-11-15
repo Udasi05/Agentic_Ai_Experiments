@@ -1,0 +1,12 @@
+{
+  "pythonVersion": "3.14",
+  "pythonPath": "C:\\Python314\\python.exe",
+  "extraPaths": [
+    ".",
+    "src",
+    "C:\\Users\\Anishku\\AppData\\Roaming\\Python\\Python314\\site-packages"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false
+}
+

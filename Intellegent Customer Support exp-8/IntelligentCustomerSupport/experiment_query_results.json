@@ -1,0 +1,193 @@
+[
+  {
+    "query_id": "EXP01",
+    "query_text": "I cannot log in to my account after resetting my password.",
+    "mcp_classification": {
+      "intent": "Login / Access",
+      "complexity": "Medium",
+      "priority": "P2",
+      "reason": "Access issue keywords"
+    },
+    "qwen_classification": {
+      "intent": "Login / Access",
+      "complexity": "Low",
+      "priority": "P3",
+      "reason": "Password reset issue leading to login failure"
+    },
+    "qwen_error": "",
+    "final_classification": {
+      "intent": "Login / Access",
+      "complexity": "Low",
+      "priority": "P3",
+      "reason": "Password reset issue leading to login failure"
+    },
+    "article_id": "KB001",
+    "match_score": 65,
+    "matched_keywords": [
+      "log in",
+      "password"
+    ],
+    "route": "HUMAN_REVIEW",
+    "response_draft": "Thank you for reaching out. It seems you're having trouble logging in after resetting your password. Please follow these steps:\n\n1. Go to the account recovery page.\n2. Reset your password as instructed.\n3. Verify the email or authenticator prompt sent to your registered email address.\n\nIf you continue to experience issues, please contact support to verify if your account is locked out. We will not share your password or one-time codes.\n\nIf you need further assistance, could you please provide more details about the issue?",
+    "draft_error": "",
+    "qwen_classification_seconds": 6.82
+  },
+  {
+    "query_id": "EXP02",
+    "query_text": "My payment was deducted but the invoice is missing. Please help urgently.",
+    "mcp_classification": {
+      "intent": "Billing",
+      "complexity": "Medium",
+      "priority": "P2",
+      "reason": "Billing keywords"
+    },
+    "qwen_classification": {
+      "intent": "Billing",
+      "complexity": "Medium",
+      "priority": "P2",
+      "reason": "Billing keywords"
+    },
+    "qwen_error": "Model returned invalid classification JSON",
+    "final_classification": {
+      "intent": "Billing",
+      "complexity": "Medium",
+      "priority": "P2",
+      "reason": "Billing keywords"
+    },
+    "article_id": "KB002",
+    "match_score": 65,
+    "matched_keywords": [
+      "invoice",
+      "payment"
+    ],
+    "route": "HUMAN_REVIEW",
+    "response_draft": "To resolve your issue, please follow these steps:\n\n1. Open your Workspace Settings.\n2. Navigate to the Billing section.\n3. Review the Invoice history to locate your invoice.\n\nIf the invoice is still missing or you have concerns about a charge, please provide the invoice date and your ticket ID when contacting the billing team. Do not send full card details.\n\nIf you need further assistance, please let us know.",
+    "draft_error": "",
+    "qwen_classification_seconds": 0
+  },
+  {
+    "query_id": "EXP03",
+    "query_text": "The application is down for all users in our company.",
+    "mcp_classification": {
+      "intent": "Technical Error",
+      "complexity": "High",
+      "priority": "P1",
+      "reason": "Widespread outage trigger"
+    },
+    "qwen_classification": {
+      "intent": "Unresolved Issue",
+      "complexity": "High",
+      "priority": "P1",
+      "reason": "Widespread application outage reported"
+    },
+    "qwen_error": "",
+    "final_classification": {
+      "intent": "Technical Error",
+      "complexity": "High",
+      "priority": "P1",
+      "reason": "Widespread outage trigger"
+    },
+    "article_id": null,
+    "match_score": 0,
+    "matched_keywords": [],
+    "route": "URGENT_HUMAN_ESCALATION",
+    "response_draft": "No approved article; no answer generated.",
+    "draft_error": "",
+    "qwen_classification_seconds": 5.75
+  },
+  {
+    "query_id": "EXP04",
+    "query_text": "Please add dark mode to the dashboard.",
+    "mcp_classification": {
+      "intent": "Feature Request",
+      "complexity": "Low",
+      "priority": "P4",
+      "reason": "Product feedback keywords"
+    },
+    "qwen_classification": {
+      "intent": "Feature Request",
+      "complexity": "Low",
+      "priority": "P3",
+      "reason": "Request for a new feature"
+    },
+    "qwen_error": "",
+    "final_classification": {
+      "intent": "Feature Request",
+      "complexity": "Low",
+      "priority": "P3",
+      "reason": "Request for a new feature"
+    },
+    "article_id": "KB005",
+    "match_score": 65,
+    "matched_keywords": [
+      "dark mode",
+      "add"
+    ],
+    "route": "HUMAN_REVIEW",
+    "response_draft": "Thank you for your suggestion to add dark mode to the dashboard. The request has been recorded for review. A support agent can add more context to the feedback ticket if needed.",
+    "draft_error": "",
+    "qwen_classification_seconds": 5.57
+  },
+  {
+    "query_id": "EXP05",
+    "query_text": "It is not working.",
+    "mcp_classification": {
+      "intent": "Unresolved Issue",
+      "complexity": "High",
+      "priority": "P2",
+      "reason": "Repeated failure needs review"
+    },
+    "qwen_classification": {
+      "intent": "Technical Error",
+      "complexity": "Low",
+      "priority": "P3",
+      "reason": "Brief error report without specific details"
+    },
+    "qwen_error": "",
+    "final_classification": {
+      "intent": "Technical Error",
+      "complexity": "Low",
+      "priority": "P3",
+      "reason": "Brief error report without specific details"
+    },
+    "article_id": "KB006",
+    "match_score": 25,
+    "matched_keywords": [
+      "not working"
+    ],
+    "route": "REQUEST_INFORMATION_OR_ESCALATE",
+    "response_draft": "Thank you for reaching out. Since the suggested steps did not resolve the issue, this needs human review. Please provide the attempted steps and relevant context so the support team can continue troubleshooting.",
+    "draft_error": "",
+    "qwen_classification_seconds": 8.39
+  },
+  {
+    "query_id": "EXP06",
+    "query_text": "Can CloudCRM connect to a fictional quantum flux capacitor?",
+    "mcp_classification": {
+      "intent": "Unknown",
+      "complexity": "Medium",
+      "priority": "P3",
+      "reason": "No confident rule match"
+    },
+    "qwen_classification": {
+      "intent": "Feature Request",
+      "complexity": "Low",
+      "priority": "P4",
+      "reason": "Query about a fictional feature not related to current capabilities."
+    },
+    "qwen_error": "",
+    "final_classification": {
+      "intent": "Feature Request",
+      "complexity": "Low",
+      "priority": "P4",
+      "reason": "Query about a fictional feature not related to current capabilities."
+    },
+    "article_id": null,
+    "match_score": 0,
+    "matched_keywords": [],
+    "route": "CREATE_TICKET_AND_ESCALATE",
+    "response_draft": "No approved article; no answer generated.",
+    "draft_error": "",
+    "qwen_classification_seconds": 6.87
+  }
+]

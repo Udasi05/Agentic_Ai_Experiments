@@ -1,0 +1,501 @@
+query_id,customer_id,query_text,product,created_at,ground_truth_intent
+Q0001,C001,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 09:00,Login / Access
+Q0002,C002,My account is locked and I need help restoring access,CloudCRM,2026-10-20 09:03,Login / Access
+Q0003,C003,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 09:06,Login / Access
+Q0004,C004,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 09:09,Billing
+Q0005,C005,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 09:12,Billing
+Q0006,C006,Please check the billing status for my workspace,CloudCRM,2026-10-20 09:15,Billing
+Q0007,C007,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 09:18,General Information
+Q0008,C008,What is included in the basic plan?,CloudCRM,2026-10-20 09:21,General Information
+Q0009,C009,The report export returns an internal server error,CloudCRM,2026-10-20 09:24,Technical Error
+Q0010,C010,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 09:27,Technical Error
+Q0011,C011,Please add dark mode to the application,CloudCRM,2026-10-20 09:30,Feature Request
+Q0012,C012,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 09:33,Feature Request
+Q0013,C013,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 09:36,Unresolved Issue
+Q0014,C014,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 09:39,Unresolved Issue
+Q0015,C015,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 09:42,Security Concern
+Q0016,C016,The application is down for all users in our company,CloudCRM,2026-10-20 09:45,Technical Error
+Q0017,C017,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 09:48,General Information
+Q0018,C018,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 09:51,Technical Error
+Q0019,C019,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 09:54,Billing
+Q0020,C020,I need help understanding the settings in my account,CloudCRM,2026-10-20 09:57,General Information
+Q0021,C021,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 10:00,Login / Access
+Q0022,C022,My account is locked and I need help restoring access,CloudCRM,2026-10-20 10:03,Login / Access
+Q0023,C023,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 10:06,Login / Access
+Q0024,C024,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 10:09,Billing
+Q0025,C025,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 10:12,Billing
+Q0026,C026,Please check the billing status for my workspace,CloudCRM,2026-10-20 10:15,Billing
+Q0027,C027,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 10:18,General Information
+Q0028,C028,What is included in the basic plan?,CloudCRM,2026-10-20 10:21,General Information
+Q0029,C029,The report export returns an internal server error,CloudCRM,2026-10-20 10:24,Technical Error
+Q0030,C030,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 10:27,Technical Error
+Q0031,C031,Please add dark mode to the application,CloudCRM,2026-10-20 10:30,Feature Request
+Q0032,C032,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 10:33,Feature Request
+Q0033,C033,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 10:36,Unresolved Issue
+Q0034,C034,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 10:39,Unresolved Issue
+Q0035,C035,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 10:42,Security Concern
+Q0036,C036,The application is down for all users in our company,CloudCRM,2026-10-20 10:45,Technical Error
+Q0037,C037,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 10:48,General Information
+Q0038,C038,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 10:51,Technical Error
+Q0039,C039,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 10:54,Billing
+Q0040,C040,I need help understanding the settings in my account,CloudCRM,2026-10-20 10:57,General Information
+Q0041,C041,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 11:00,Login / Access
+Q0042,C042,My account is locked and I need help restoring access,CloudCRM,2026-10-20 11:03,Login / Access
+Q0043,C043,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 11:06,Login / Access
+Q0044,C044,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 11:09,Billing
+Q0045,C045,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 11:12,Billing
+Q0046,C046,Please check the billing status for my workspace,CloudCRM,2026-10-20 11:15,Billing
+Q0047,C047,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 11:18,General Information
+Q0048,C048,What is included in the basic plan?,CloudCRM,2026-10-20 11:21,General Information
+Q0049,C049,The report export returns an internal server error,CloudCRM,2026-10-20 11:24,Technical Error
+Q0050,C050,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 11:27,Technical Error
+Q0051,C051,Please add dark mode to the application,CloudCRM,2026-10-20 11:30,Feature Request
+Q0052,C052,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 11:33,Feature Request
+Q0053,C053,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 11:36,Unresolved Issue
+Q0054,C054,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 11:39,Unresolved Issue
+Q0055,C055,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 11:42,Security Concern
+Q0056,C056,The application is down for all users in our company,CloudCRM,2026-10-20 11:45,Technical Error
+Q0057,C057,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 11:48,General Information
+Q0058,C058,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 11:51,Technical Error
+Q0059,C059,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 11:54,Billing
+Q0060,C060,I need help understanding the settings in my account,CloudCRM,2026-10-20 11:57,General Information
+Q0061,C061,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 12:00,Login / Access
+Q0062,C062,My account is locked and I need help restoring access,CloudCRM,2026-10-20 12:03,Login / Access
+Q0063,C063,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 12:06,Login / Access
+Q0064,C064,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 12:09,Billing
+Q0065,C065,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 12:12,Billing
+Q0066,C066,Please check the billing status for my workspace,CloudCRM,2026-10-20 12:15,Billing
+Q0067,C067,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 12:18,General Information
+Q0068,C068,What is included in the basic plan?,CloudCRM,2026-10-20 12:21,General Information
+Q0069,C069,The report export returns an internal server error,CloudCRM,2026-10-20 12:24,Technical Error
+Q0070,C070,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 12:27,Technical Error
+Q0071,C071,Please add dark mode to the application,CloudCRM,2026-10-20 12:30,Feature Request
+Q0072,C072,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 12:33,Feature Request
+Q0073,C073,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 12:36,Unresolved Issue
+Q0074,C074,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 12:39,Unresolved Issue
+Q0075,C075,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 12:42,Security Concern
+Q0076,C076,The application is down for all users in our company,CloudCRM,2026-10-20 12:45,Technical Error
+Q0077,C077,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 12:48,General Information
+Q0078,C078,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 12:51,Technical Error
+Q0079,C079,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 12:54,Billing
+Q0080,C080,I need help understanding the settings in my account,CloudCRM,2026-10-20 12:57,General Information
+Q0081,C081,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 13:00,Login / Access
+Q0082,C082,My account is locked and I need help restoring access,CloudCRM,2026-10-20 13:03,Login / Access
+Q0083,C083,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 13:06,Login / Access
+Q0084,C084,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 13:09,Billing
+Q0085,C085,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 13:12,Billing
+Q0086,C086,Please check the billing status for my workspace,CloudCRM,2026-10-20 13:15,Billing
+Q0087,C087,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 13:18,General Information
+Q0088,C088,What is included in the basic plan?,CloudCRM,2026-10-20 13:21,General Information
+Q0089,C089,The report export returns an internal server error,CloudCRM,2026-10-20 13:24,Technical Error
+Q0090,C090,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 13:27,Technical Error
+Q0091,C091,Please add dark mode to the application,CloudCRM,2026-10-20 13:30,Feature Request
+Q0092,C092,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 13:33,Feature Request
+Q0093,C093,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 13:36,Unresolved Issue
+Q0094,C094,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 13:39,Unresolved Issue
+Q0095,C095,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 13:42,Security Concern
+Q0096,C096,The application is down for all users in our company,CloudCRM,2026-10-20 13:45,Technical Error
+Q0097,C097,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 13:48,General Information
+Q0098,C098,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 13:51,Technical Error
+Q0099,C099,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 13:54,Billing
+Q0100,C100,I need help understanding the settings in my account,CloudCRM,2026-10-20 13:57,General Information
+Q0101,C101,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 14:00,Login / Access
+Q0102,C102,My account is locked and I need help restoring access,CloudCRM,2026-10-20 14:03,Login / Access
+Q0103,C103,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 14:06,Login / Access
+Q0104,C104,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 14:09,Billing
+Q0105,C105,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 14:12,Billing
+Q0106,C106,Please check the billing status for my workspace,CloudCRM,2026-10-20 14:15,Billing
+Q0107,C107,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 14:18,General Information
+Q0108,C108,What is included in the basic plan?,CloudCRM,2026-10-20 14:21,General Information
+Q0109,C109,The report export returns an internal server error,CloudCRM,2026-10-20 14:24,Technical Error
+Q0110,C110,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 14:27,Technical Error
+Q0111,C111,Please add dark mode to the application,CloudCRM,2026-10-20 14:30,Feature Request
+Q0112,C112,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 14:33,Feature Request
+Q0113,C113,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 14:36,Unresolved Issue
+Q0114,C114,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 14:39,Unresolved Issue
+Q0115,C115,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 14:42,Security Concern
+Q0116,C116,The application is down for all users in our company,CloudCRM,2026-10-20 14:45,Technical Error
+Q0117,C117,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 14:48,General Information
+Q0118,C118,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 14:51,Technical Error
+Q0119,C119,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 14:54,Billing
+Q0120,C120,I need help understanding the settings in my account,CloudCRM,2026-10-20 14:57,General Information
+Q0121,C001,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 15:00,Login / Access
+Q0122,C002,My account is locked and I need help restoring access,CloudCRM,2026-10-20 15:03,Login / Access
+Q0123,C003,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 15:06,Login / Access
+Q0124,C004,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 15:09,Billing
+Q0125,C005,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 15:12,Billing
+Q0126,C006,Please check the billing status for my workspace,CloudCRM,2026-10-20 15:15,Billing
+Q0127,C007,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 15:18,General Information
+Q0128,C008,What is included in the basic plan?,CloudCRM,2026-10-20 15:21,General Information
+Q0129,C009,The report export returns an internal server error,CloudCRM,2026-10-20 15:24,Technical Error
+Q0130,C010,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 15:27,Technical Error
+Q0131,C011,Please add dark mode to the application,CloudCRM,2026-10-20 15:30,Feature Request
+Q0132,C012,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 15:33,Feature Request
+Q0133,C013,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 15:36,Unresolved Issue
+Q0134,C014,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 15:39,Unresolved Issue
+Q0135,C015,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 15:42,Security Concern
+Q0136,C016,The application is down for all users in our company,CloudCRM,2026-10-20 15:45,Technical Error
+Q0137,C017,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 15:48,General Information
+Q0138,C018,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 15:51,Technical Error
+Q0139,C019,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 15:54,Billing
+Q0140,C020,I need help understanding the settings in my account,CloudCRM,2026-10-20 15:57,General Information
+Q0141,C021,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 16:00,Login / Access
+Q0142,C022,My account is locked and I need help restoring access,CloudCRM,2026-10-20 16:03,Login / Access
+Q0143,C023,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 16:06,Login / Access
+Q0144,C024,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 16:09,Billing
+Q0145,C025,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 16:12,Billing
+Q0146,C026,Please check the billing status for my workspace,CloudCRM,2026-10-20 16:15,Billing
+Q0147,C027,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 16:18,General Information
+Q0148,C028,What is included in the basic plan?,CloudCRM,2026-10-20 16:21,General Information
+Q0149,C029,The report export returns an internal server error,CloudCRM,2026-10-20 16:24,Technical Error
+Q0150,C030,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 16:27,Technical Error
+Q0151,C031,Please add dark mode to the application,CloudCRM,2026-10-20 16:30,Feature Request
+Q0152,C032,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 16:33,Feature Request
+Q0153,C033,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 16:36,Unresolved Issue
+Q0154,C034,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 16:39,Unresolved Issue
+Q0155,C035,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 16:42,Security Concern
+Q0156,C036,The application is down for all users in our company,CloudCRM,2026-10-20 16:45,Technical Error
+Q0157,C037,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 16:48,General Information
+Q0158,C038,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 16:51,Technical Error
+Q0159,C039,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 16:54,Billing
+Q0160,C040,I need help understanding the settings in my account,CloudCRM,2026-10-20 16:57,General Information
+Q0161,C041,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 17:00,Login / Access
+Q0162,C042,My account is locked and I need help restoring access,CloudCRM,2026-10-20 17:03,Login / Access
+Q0163,C043,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 17:06,Login / Access
+Q0164,C044,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 17:09,Billing
+Q0165,C045,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 17:12,Billing
+Q0166,C046,Please check the billing status for my workspace,CloudCRM,2026-10-20 17:15,Billing
+Q0167,C047,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 17:18,General Information
+Q0168,C048,What is included in the basic plan?,CloudCRM,2026-10-20 17:21,General Information
+Q0169,C049,The report export returns an internal server error,CloudCRM,2026-10-20 17:24,Technical Error
+Q0170,C050,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 17:27,Technical Error
+Q0171,C051,Please add dark mode to the application,CloudCRM,2026-10-20 17:30,Feature Request
+Q0172,C052,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 17:33,Feature Request
+Q0173,C053,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 17:36,Unresolved Issue
+Q0174,C054,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 17:39,Unresolved Issue
+Q0175,C055,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 17:42,Security Concern
+Q0176,C056,The application is down for all users in our company,CloudCRM,2026-10-20 17:45,Technical Error
+Q0177,C057,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 17:48,General Information
+Q0178,C058,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 17:51,Technical Error
+Q0179,C059,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 17:54,Billing
+Q0180,C060,I need help understanding the settings in my account,CloudCRM,2026-10-20 17:57,General Information
+Q0181,C061,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 18:00,Login / Access
+Q0182,C062,My account is locked and I need help restoring access,CloudCRM,2026-10-20 18:03,Login / Access
+Q0183,C063,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 18:06,Login / Access
+Q0184,C064,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 18:09,Billing
+Q0185,C065,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 18:12,Billing
+Q0186,C066,Please check the billing status for my workspace,CloudCRM,2026-10-20 18:15,Billing
+Q0187,C067,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 18:18,General Information
+Q0188,C068,What is included in the basic plan?,CloudCRM,2026-10-20 18:21,General Information
+Q0189,C069,The report export returns an internal server error,CloudCRM,2026-10-20 18:24,Technical Error
+Q0190,C070,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 18:27,Technical Error
+Q0191,C071,Please add dark mode to the application,CloudCRM,2026-10-20 18:30,Feature Request
+Q0192,C072,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 18:33,Feature Request
+Q0193,C073,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 18:36,Unresolved Issue
+Q0194,C074,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 18:39,Unresolved Issue
+Q0195,C075,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 18:42,Security Concern
+Q0196,C076,The application is down for all users in our company,CloudCRM,2026-10-20 18:45,Technical Error
+Q0197,C077,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 18:48,General Information
+Q0198,C078,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 18:51,Technical Error
+Q0199,C079,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 18:54,Billing
+Q0200,C080,I need help understanding the settings in my account,CloudCRM,2026-10-20 18:57,General Information
+Q0201,C081,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 19:00,Login / Access
+Q0202,C082,My account is locked and I need help restoring access,CloudCRM,2026-10-20 19:03,Login / Access
+Q0203,C083,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 19:06,Login / Access
+Q0204,C084,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 19:09,Billing
+Q0205,C085,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 19:12,Billing
+Q0206,C086,Please check the billing status for my workspace,CloudCRM,2026-10-20 19:15,Billing
+Q0207,C087,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 19:18,General Information
+Q0208,C088,What is included in the basic plan?,CloudCRM,2026-10-20 19:21,General Information
+Q0209,C089,The report export returns an internal server error,CloudCRM,2026-10-20 19:24,Technical Error
+Q0210,C090,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 19:27,Technical Error
+Q0211,C091,Please add dark mode to the application,CloudCRM,2026-10-20 19:30,Feature Request
+Q0212,C092,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 19:33,Feature Request
+Q0213,C093,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 19:36,Unresolved Issue
+Q0214,C094,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 19:39,Unresolved Issue
+Q0215,C095,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 19:42,Security Concern
+Q0216,C096,The application is down for all users in our company,CloudCRM,2026-10-20 19:45,Technical Error
+Q0217,C097,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 19:48,General Information
+Q0218,C098,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 19:51,Technical Error
+Q0219,C099,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 19:54,Billing
+Q0220,C100,I need help understanding the settings in my account,CloudCRM,2026-10-20 19:57,General Information
+Q0221,C101,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 20:00,Login / Access
+Q0222,C102,My account is locked and I need help restoring access,CloudCRM,2026-10-20 20:03,Login / Access
+Q0223,C103,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 20:06,Login / Access
+Q0224,C104,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 20:09,Billing
+Q0225,C105,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 20:12,Billing
+Q0226,C106,Please check the billing status for my workspace,CloudCRM,2026-10-20 20:15,Billing
+Q0227,C107,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 20:18,General Information
+Q0228,C108,What is included in the basic plan?,CloudCRM,2026-10-20 20:21,General Information
+Q0229,C109,The report export returns an internal server error,CloudCRM,2026-10-20 20:24,Technical Error
+Q0230,C110,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 20:27,Technical Error
+Q0231,C111,Please add dark mode to the application,CloudCRM,2026-10-20 20:30,Feature Request
+Q0232,C112,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 20:33,Feature Request
+Q0233,C113,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 20:36,Unresolved Issue
+Q0234,C114,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 20:39,Unresolved Issue
+Q0235,C115,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 20:42,Security Concern
+Q0236,C116,The application is down for all users in our company,CloudCRM,2026-10-20 20:45,Technical Error
+Q0237,C117,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 20:48,General Information
+Q0238,C118,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 20:51,Technical Error
+Q0239,C119,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 20:54,Billing
+Q0240,C120,I need help understanding the settings in my account,CloudCRM,2026-10-20 20:57,General Information
+Q0241,C001,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 21:00,Login / Access
+Q0242,C002,My account is locked and I need help restoring access,CloudCRM,2026-10-20 21:03,Login / Access
+Q0243,C003,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 21:06,Login / Access
+Q0244,C004,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 21:09,Billing
+Q0245,C005,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 21:12,Billing
+Q0246,C006,Please check the billing status for my workspace,CloudCRM,2026-10-20 21:15,Billing
+Q0247,C007,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 21:18,General Information
+Q0248,C008,What is included in the basic plan?,CloudCRM,2026-10-20 21:21,General Information
+Q0249,C009,The report export returns an internal server error,CloudCRM,2026-10-20 21:24,Technical Error
+Q0250,C010,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 21:27,Technical Error
+Q0251,C011,Please add dark mode to the application,CloudCRM,2026-10-20 21:30,Feature Request
+Q0252,C012,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 21:33,Feature Request
+Q0253,C013,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 21:36,Unresolved Issue
+Q0254,C014,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 21:39,Unresolved Issue
+Q0255,C015,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 21:42,Security Concern
+Q0256,C016,The application is down for all users in our company,CloudCRM,2026-10-20 21:45,Technical Error
+Q0257,C017,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 21:48,General Information
+Q0258,C018,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 21:51,Technical Error
+Q0259,C019,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 21:54,Billing
+Q0260,C020,I need help understanding the settings in my account,CloudCRM,2026-10-20 21:57,General Information
+Q0261,C021,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 22:00,Login / Access
+Q0262,C022,My account is locked and I need help restoring access,CloudCRM,2026-10-20 22:03,Login / Access
+Q0263,C023,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 22:06,Login / Access
+Q0264,C024,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 22:09,Billing
+Q0265,C025,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 22:12,Billing
+Q0266,C026,Please check the billing status for my workspace,CloudCRM,2026-10-20 22:15,Billing
+Q0267,C027,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 22:18,General Information
+Q0268,C028,What is included in the basic plan?,CloudCRM,2026-10-20 22:21,General Information
+Q0269,C029,The report export returns an internal server error,CloudCRM,2026-10-20 22:24,Technical Error
+Q0270,C030,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 22:27,Technical Error
+Q0271,C031,Please add dark mode to the application,CloudCRM,2026-10-20 22:30,Feature Request
+Q0272,C032,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 22:33,Feature Request
+Q0273,C033,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 22:36,Unresolved Issue
+Q0274,C034,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 22:39,Unresolved Issue
+Q0275,C035,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 22:42,Security Concern
+Q0276,C036,The application is down for all users in our company,CloudCRM,2026-10-20 22:45,Technical Error
+Q0277,C037,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 22:48,General Information
+Q0278,C038,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 22:51,Technical Error
+Q0279,C039,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 22:54,Billing
+Q0280,C040,I need help understanding the settings in my account,CloudCRM,2026-10-20 22:57,General Information
+Q0281,C041,I cannot log in to my account after resetting my password,CloudCRM,2026-10-20 23:00,Login / Access
+Q0282,C042,My account is locked and I need help restoring access,CloudCRM,2026-10-20 23:03,Login / Access
+Q0283,C043,The two-factor authentication code is not accepted,CloudCRM,2026-10-20 23:06,Login / Access
+Q0284,C044,Where can I find the invoice for my subscription?,CloudCRM,2026-10-20 23:09,Billing
+Q0285,C045,My payment was deducted but the invoice is missing,CloudCRM,2026-10-20 23:12,Billing
+Q0286,C046,Please check the billing status for my workspace,CloudCRM,2026-10-20 23:15,Billing
+Q0287,C047,How can I upgrade my plan and review the features?,CloudCRM,2026-10-20 23:18,General Information
+Q0288,C048,What is included in the basic plan?,CloudCRM,2026-10-20 23:21,General Information
+Q0289,C049,The report export returns an internal server error,CloudCRM,2026-10-20 23:24,Technical Error
+Q0290,C050,File upload keeps timing out in the dashboard,CloudCRM,2026-10-20 23:27,Technical Error
+Q0291,C051,Please add dark mode to the application,CloudCRM,2026-10-20 23:30,Feature Request
+Q0292,C052,I suggest adding a weekly summary feature,CloudCRM,2026-10-20 23:33,Feature Request
+Q0293,C053,I tried all suggested steps and it is still not working,CloudCRM,2026-10-20 23:36,Unresolved Issue
+Q0294,C054,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-20 23:39,Unresolved Issue
+Q0295,C055,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-20 23:42,Security Concern
+Q0296,C056,The application is down for all users in our company,CloudCRM,2026-10-20 23:45,Technical Error
+Q0297,C057,How do I update my workspace notification preferences?,CloudCRM,2026-10-20 23:48,General Information
+Q0298,C058,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-20 23:51,Technical Error
+Q0299,C059,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-20 23:54,Billing
+Q0300,C060,I need help understanding the settings in my account,CloudCRM,2026-10-20 23:57,General Information
+Q0301,C061,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 00:00,Login / Access
+Q0302,C062,My account is locked and I need help restoring access,CloudCRM,2026-10-21 00:03,Login / Access
+Q0303,C063,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 00:06,Login / Access
+Q0304,C064,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 00:09,Billing
+Q0305,C065,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 00:12,Billing
+Q0306,C066,Please check the billing status for my workspace,CloudCRM,2026-10-21 00:15,Billing
+Q0307,C067,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 00:18,General Information
+Q0308,C068,What is included in the basic plan?,CloudCRM,2026-10-21 00:21,General Information
+Q0309,C069,The report export returns an internal server error,CloudCRM,2026-10-21 00:24,Technical Error
+Q0310,C070,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 00:27,Technical Error
+Q0311,C071,Please add dark mode to the application,CloudCRM,2026-10-21 00:30,Feature Request
+Q0312,C072,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 00:33,Feature Request
+Q0313,C073,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 00:36,Unresolved Issue
+Q0314,C074,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 00:39,Unresolved Issue
+Q0315,C075,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 00:42,Security Concern
+Q0316,C076,The application is down for all users in our company,CloudCRM,2026-10-21 00:45,Technical Error
+Q0317,C077,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 00:48,General Information
+Q0318,C078,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 00:51,Technical Error
+Q0319,C079,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 00:54,Billing
+Q0320,C080,I need help understanding the settings in my account,CloudCRM,2026-10-21 00:57,General Information
+Q0321,C081,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 01:00,Login / Access
+Q0322,C082,My account is locked and I need help restoring access,CloudCRM,2026-10-21 01:03,Login / Access
+Q0323,C083,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 01:06,Login / Access
+Q0324,C084,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 01:09,Billing
+Q0325,C085,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 01:12,Billing
+Q0326,C086,Please check the billing status for my workspace,CloudCRM,2026-10-21 01:15,Billing
+Q0327,C087,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 01:18,General Information
+Q0328,C088,What is included in the basic plan?,CloudCRM,2026-10-21 01:21,General Information
+Q0329,C089,The report export returns an internal server error,CloudCRM,2026-10-21 01:24,Technical Error
+Q0330,C090,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 01:27,Technical Error
+Q0331,C091,Please add dark mode to the application,CloudCRM,2026-10-21 01:30,Feature Request
+Q0332,C092,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 01:33,Feature Request
+Q0333,C093,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 01:36,Unresolved Issue
+Q0334,C094,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 01:39,Unresolved Issue
+Q0335,C095,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 01:42,Security Concern
+Q0336,C096,The application is down for all users in our company,CloudCRM,2026-10-21 01:45,Technical Error
+Q0337,C097,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 01:48,General Information
+Q0338,C098,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 01:51,Technical Error
+Q0339,C099,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 01:54,Billing
+Q0340,C100,I need help understanding the settings in my account,CloudCRM,2026-10-21 01:57,General Information
+Q0341,C101,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 02:00,Login / Access
+Q0342,C102,My account is locked and I need help restoring access,CloudCRM,2026-10-21 02:03,Login / Access
+Q0343,C103,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 02:06,Login / Access
+Q0344,C104,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 02:09,Billing
+Q0345,C105,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 02:12,Billing
+Q0346,C106,Please check the billing status for my workspace,CloudCRM,2026-10-21 02:15,Billing
+Q0347,C107,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 02:18,General Information
+Q0348,C108,What is included in the basic plan?,CloudCRM,2026-10-21 02:21,General Information
+Q0349,C109,The report export returns an internal server error,CloudCRM,2026-10-21 02:24,Technical Error
+Q0350,C110,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 02:27,Technical Error
+Q0351,C111,Please add dark mode to the application,CloudCRM,2026-10-21 02:30,Feature Request
+Q0352,C112,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 02:33,Feature Request
+Q0353,C113,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 02:36,Unresolved Issue
+Q0354,C114,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 02:39,Unresolved Issue
+Q0355,C115,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 02:42,Security Concern
+Q0356,C116,The application is down for all users in our company,CloudCRM,2026-10-21 02:45,Technical Error
+Q0357,C117,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 02:48,General Information
+Q0358,C118,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 02:51,Technical Error
+Q0359,C119,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 02:54,Billing
+Q0360,C120,I need help understanding the settings in my account,CloudCRM,2026-10-21 02:57,General Information
+Q0361,C001,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 03:00,Login / Access
+Q0362,C002,My account is locked and I need help restoring access,CloudCRM,2026-10-21 03:03,Login / Access
+Q0363,C003,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 03:06,Login / Access
+Q0364,C004,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 03:09,Billing
+Q0365,C005,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 03:12,Billing
+Q0366,C006,Please check the billing status for my workspace,CloudCRM,2026-10-21 03:15,Billing
+Q0367,C007,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 03:18,General Information
+Q0368,C008,What is included in the basic plan?,CloudCRM,2026-10-21 03:21,General Information
+Q0369,C009,The report export returns an internal server error,CloudCRM,2026-10-21 03:24,Technical Error
+Q0370,C010,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 03:27,Technical Error
+Q0371,C011,Please add dark mode to the application,CloudCRM,2026-10-21 03:30,Feature Request
+Q0372,C012,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 03:33,Feature Request
+Q0373,C013,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 03:36,Unresolved Issue
+Q0374,C014,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 03:39,Unresolved Issue
+Q0375,C015,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 03:42,Security Concern
+Q0376,C016,The application is down for all users in our company,CloudCRM,2026-10-21 03:45,Technical Error
+Q0377,C017,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 03:48,General Information
+Q0378,C018,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 03:51,Technical Error
+Q0379,C019,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 03:54,Billing
+Q0380,C020,I need help understanding the settings in my account,CloudCRM,2026-10-21 03:57,General Information
+Q0381,C021,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 04:00,Login / Access
+Q0382,C022,My account is locked and I need help restoring access,CloudCRM,2026-10-21 04:03,Login / Access
+Q0383,C023,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 04:06,Login / Access
+Q0384,C024,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 04:09,Billing
+Q0385,C025,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 04:12,Billing
+Q0386,C026,Please check the billing status for my workspace,CloudCRM,2026-10-21 04:15,Billing
+Q0387,C027,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 04:18,General Information
+Q0388,C028,What is included in the basic plan?,CloudCRM,2026-10-21 04:21,General Information
+Q0389,C029,The report export returns an internal server error,CloudCRM,2026-10-21 04:24,Technical Error
+Q0390,C030,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 04:27,Technical Error
+Q0391,C031,Please add dark mode to the application,CloudCRM,2026-10-21 04:30,Feature Request
+Q0392,C032,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 04:33,Feature Request
+Q0393,C033,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 04:36,Unresolved Issue
+Q0394,C034,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 04:39,Unresolved Issue
+Q0395,C035,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 04:42,Security Concern
+Q0396,C036,The application is down for all users in our company,CloudCRM,2026-10-21 04:45,Technical Error
+Q0397,C037,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 04:48,General Information
+Q0398,C038,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 04:51,Technical Error
+Q0399,C039,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 04:54,Billing
+Q0400,C040,I need help understanding the settings in my account,CloudCRM,2026-10-21 04:57,General Information
+Q0401,C041,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 05:00,Login / Access
+Q0402,C042,My account is locked and I need help restoring access,CloudCRM,2026-10-21 05:03,Login / Access
+Q0403,C043,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 05:06,Login / Access
+Q0404,C044,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 05:09,Billing
+Q0405,C045,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 05:12,Billing
+Q0406,C046,Please check the billing status for my workspace,CloudCRM,2026-10-21 05:15,Billing
+Q0407,C047,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 05:18,General Information
+Q0408,C048,What is included in the basic plan?,CloudCRM,2026-10-21 05:21,General Information
+Q0409,C049,The report export returns an internal server error,CloudCRM,2026-10-21 05:24,Technical Error
+Q0410,C050,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 05:27,Technical Error
+Q0411,C051,Please add dark mode to the application,CloudCRM,2026-10-21 05:30,Feature Request
+Q0412,C052,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 05:33,Feature Request
+Q0413,C053,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 05:36,Unresolved Issue
+Q0414,C054,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 05:39,Unresolved Issue
+Q0415,C055,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 05:42,Security Concern
+Q0416,C056,The application is down for all users in our company,CloudCRM,2026-10-21 05:45,Technical Error
+Q0417,C057,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 05:48,General Information
+Q0418,C058,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 05:51,Technical Error
+Q0419,C059,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 05:54,Billing
+Q0420,C060,I need help understanding the settings in my account,CloudCRM,2026-10-21 05:57,General Information
+Q0421,C061,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 06:00,Login / Access
+Q0422,C062,My account is locked and I need help restoring access,CloudCRM,2026-10-21 06:03,Login / Access
+Q0423,C063,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 06:06,Login / Access
+Q0424,C064,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 06:09,Billing
+Q0425,C065,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 06:12,Billing
+Q0426,C066,Please check the billing status for my workspace,CloudCRM,2026-10-21 06:15,Billing
+Q0427,C067,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 06:18,General Information
+Q0428,C068,What is included in the basic plan?,CloudCRM,2026-10-21 06:21,General Information
+Q0429,C069,The report export returns an internal server error,CloudCRM,2026-10-21 06:24,Technical Error
+Q0430,C070,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 06:27,Technical Error
+Q0431,C071,Please add dark mode to the application,CloudCRM,2026-10-21 06:30,Feature Request
+Q0432,C072,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 06:33,Feature Request
+Q0433,C073,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 06:36,Unresolved Issue
+Q0434,C074,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 06:39,Unresolved Issue
+Q0435,C075,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 06:42,Security Concern
+Q0436,C076,The application is down for all users in our company,CloudCRM,2026-10-21 06:45,Technical Error
+Q0437,C077,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 06:48,General Information
+Q0438,C078,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 06:51,Technical Error
+Q0439,C079,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 06:54,Billing
+Q0440,C080,I need help understanding the settings in my account,CloudCRM,2026-10-21 06:57,General Information
+Q0441,C081,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 07:00,Login / Access
+Q0442,C082,My account is locked and I need help restoring access,CloudCRM,2026-10-21 07:03,Login / Access
+Q0443,C083,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 07:06,Login / Access
+Q0444,C084,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 07:09,Billing
+Q0445,C085,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 07:12,Billing
+Q0446,C086,Please check the billing status for my workspace,CloudCRM,2026-10-21 07:15,Billing
+Q0447,C087,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 07:18,General Information
+Q0448,C088,What is included in the basic plan?,CloudCRM,2026-10-21 07:21,General Information
+Q0449,C089,The report export returns an internal server error,CloudCRM,2026-10-21 07:24,Technical Error
+Q0450,C090,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 07:27,Technical Error
+Q0451,C091,Please add dark mode to the application,CloudCRM,2026-10-21 07:30,Feature Request
+Q0452,C092,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 07:33,Feature Request
+Q0453,C093,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 07:36,Unresolved Issue
+Q0454,C094,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 07:39,Unresolved Issue
+Q0455,C095,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 07:42,Security Concern
+Q0456,C096,The application is down for all users in our company,CloudCRM,2026-10-21 07:45,Technical Error
+Q0457,C097,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 07:48,General Information
+Q0458,C098,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 07:51,Technical Error
+Q0459,C099,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 07:54,Billing
+Q0460,C100,I need help understanding the settings in my account,CloudCRM,2026-10-21 07:57,General Information
+Q0461,C101,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 08:00,Login / Access
+Q0462,C102,My account is locked and I need help restoring access,CloudCRM,2026-10-21 08:03,Login / Access
+Q0463,C103,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 08:06,Login / Access
+Q0464,C104,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 08:09,Billing
+Q0465,C105,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 08:12,Billing
+Q0466,C106,Please check the billing status for my workspace,CloudCRM,2026-10-21 08:15,Billing
+Q0467,C107,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 08:18,General Information
+Q0468,C108,What is included in the basic plan?,CloudCRM,2026-10-21 08:21,General Information
+Q0469,C109,The report export returns an internal server error,CloudCRM,2026-10-21 08:24,Technical Error
+Q0470,C110,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 08:27,Technical Error
+Q0471,C111,Please add dark mode to the application,CloudCRM,2026-10-21 08:30,Feature Request
+Q0472,C112,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 08:33,Feature Request
+Q0473,C113,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 08:36,Unresolved Issue
+Q0474,C114,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 08:39,Unresolved Issue
+Q0475,C115,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 08:42,Security Concern
+Q0476,C116,The application is down for all users in our company,CloudCRM,2026-10-21 08:45,Technical Error
+Q0477,C117,How do I update my workspace notification preferences?,CloudCRM,2026-10-21 08:48,General Information
+Q0478,C118,The dashboard sync failed after the latest refresh,CloudCRM,2026-10-21 08:51,Technical Error
+Q0479,C119,"My subscription renewal charge looks incorrect, please investigate urgently",CloudCRM,2026-10-21 08:54,Billing
+Q0480,C120,I need help understanding the settings in my account,CloudCRM,2026-10-21 08:57,General Information
+Q0481,C001,I cannot log in to my account after resetting my password,CloudCRM,2026-10-21 09:00,Login / Access
+Q0482,C002,My account is locked and I need help restoring access,CloudCRM,2026-10-21 09:03,Login / Access
+Q0483,C003,The two-factor authentication code is not accepted,CloudCRM,2026-10-21 09:06,Login / Access
+Q0484,C004,Where can I find the invoice for my subscription?,CloudCRM,2026-10-21 09:09,Billing
+Q0485,C005,My payment was deducted but the invoice is missing,CloudCRM,2026-10-21 09:12,Billing
+Q0486,C006,Please check the billing status for my workspace,CloudCRM,2026-10-21 09:15,Billing
+Q0487,C007,How can I upgrade my plan and review the features?,CloudCRM,2026-10-21 09:18,General Information
+Q0488,C008,What is included in the basic plan?,CloudCRM,2026-10-21 09:21,General Information
+Q0489,C009,The report export returns an internal server error,CloudCRM,2026-10-21 09:24,Technical Error
+Q0490,C010,File upload keeps timing out in the dashboard,CloudCRM,2026-10-21 09:27,Technical Error
+Q0491,C011,Please add dark mode to the application,CloudCRM,2026-10-21 09:30,Feature Request
+Q0492,C012,I suggest adding a weekly summary feature,CloudCRM,2026-10-21 09:33,Feature Request
+Q0493,C013,I tried all suggested steps and it is still not working,CloudCRM,2026-10-21 09:36,Unresolved Issue
+Q0494,C014,The issue did not work after retrying the troubleshooting steps,CloudCRM,2026-10-21 09:39,Unresolved Issue
+Q0495,C015,Security incident: suspicious unauthorized access to our account,CloudCRM,2026-10-21 09:42,Security Concern
+Q0495,C016,The application is down for all users in our company,CloudCRM,2026-10-21 09:45,Technical Error
+Q0497,C017,My payment was deducted but the invoice is missing and this is urgent,CloudCRM,2026-10-21 09:48,Billing high priority
+Q0498,C018,,CloudCRM,2026-10-21 09:51,Invalid empty query
+Q0499,C019,It is not working,CloudCRM,2026-10-21 09:54,Ambiguous
+Q0500,C020,Can your service connect to a fictional quantum flux capacitor?,CloudCRM,2026-10-21 09:57,No KB match

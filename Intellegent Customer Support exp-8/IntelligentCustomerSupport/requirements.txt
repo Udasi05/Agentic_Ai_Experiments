@@ -1,0 +1,4 @@
+streamlit>=1.40
+requests>=2.32
+mcp[cli]>=1.9,<2
+pandas>=2.2

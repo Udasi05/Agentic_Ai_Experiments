@@ -1,0 +1,345 @@
+timestamp,run_id,event,candidate_id,actor,role,status,rule_version,details
+2026-11-06T19:17:37.559+00:00,eae1dd8553ee,RUN_STARTED,,system,system,,,pipeline run started
+2026-11-06T19:17:37.575+00:00,eae1dd8553ee,RULES_LOADED,,system,system,,v1.0,"weights={""skills_score"": 40, ""experience_score"": 30, ""assessment_score"": 30}; thresholds={""shortlist_review"": 75, ""manual_review"": 50}"
+2026-11-06T19:17:37.579+00:00,eae1dd8553ee,RECORDS_LOADED,,system,system,,v1.0,total_records=120
+2026-11-06T19:17:37.584+00:00,eae1dd8553ee,RECORD_QUARANTINED,C201,system,system,INVALID,,row=102; reason=Missing field: email
+2026-11-06T19:17:37.585+00:00,eae1dd8553ee,RECORD_QUARANTINED,C202,system,system,INVALID,,row=103; reason=Missing field: email
+2026-11-06T19:17:37.587+00:00,eae1dd8553ee,RECORD_QUARANTINED,C203,system,system,INVALID,,row=104; reason=Missing field: email
+2026-11-06T19:17:37.589+00:00,eae1dd8553ee,RECORD_QUARANTINED,C110,system,system,INVALID,,row=105; reason=Duplicate candidate_id (first seen at row 11)
+2026-11-06T19:17:37.590+00:00,eae1dd8553ee,RECORD_QUARANTINED,C120,system,system,INVALID,,row=106; reason=Duplicate candidate_id (first seen at row 21)
+2026-11-06T19:17:37.591+00:00,eae1dd8553ee,RECORD_QUARANTINED,C130,system,system,INVALID,,row=107; reason=Duplicate candidate_id (first seen at row 31)
+2026-11-06T19:17:37.591+00:00,eae1dd8553ee,RECORD_QUARANTINED,C204,system,system,INVALID,,row=108; reason=skills_score must be between 0 and 100
+2026-11-06T19:17:37.592+00:00,eae1dd8553ee,RECORD_QUARANTINED,C205,system,system,INVALID,,row=109; reason=experience_score must be between 0 and 100
+2026-11-06T19:17:37.593+00:00,eae1dd8553ee,RECORD_QUARANTINED,C206,system,system,INVALID,,row=110; reason=Invalid numeric value: skills_score
+2026-11-06T19:17:37.594+00:00,eae1dd8553ee,RECORD_QUARANTINED,C207,system,system,INVALID,,row=111; reason=Missing field: assessment_score
+2026-11-06T19:17:37.598+00:00,eae1dd8553ee,CANDIDATE_SCORED,C101,system,system,82.00,v1.0,score=82.00; skills_score=85x40%=34.00; experience_score=70x30%=21.00; assessment_score=90x30%=27.00
+2026-11-06T19:17:37.600+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C101,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.600+00:00,eae1dd8553ee,DRAFT_CREATED,C101,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.601+00:00,eae1dd8553ee,CANDIDATE_SCORED,C102,system,system,74.50,v1.0,score=74.50; skills_score=70x40%=28.00; experience_score=80x30%=24.00; assessment_score=75x30%=22.50
+2026-11-06T19:17:37.602+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C102,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.603+00:00,eae1dd8553ee,DRAFT_CREATED,C102,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.604+00:00,eae1dd8553ee,CANDIDATE_SCORED,C103,system,system,55.00,v1.0,score=55.00; skills_score=55x40%=22.00; experience_score=50x30%=15.00; assessment_score=60x30%=18.00
+2026-11-06T19:17:37.605+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C103,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.606+00:00,eae1dd8553ee,DRAFT_CREATED,C103,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.607+00:00,eae1dd8553ee,CANDIDATE_SCORED,C104,system,system,90.00,v1.0,score=90.00; skills_score=90x40%=36.00; experience_score=85x30%=25.50; assessment_score=95x30%=28.50
+2026-11-06T19:17:37.608+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C104,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.610+00:00,eae1dd8553ee,DRAFT_CREATED,C104,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.610+00:00,eae1dd8553ee,CANDIDATE_SCORED,C105,system,system,40.00,v1.0,score=40.00; skills_score=40x40%=16.00; experience_score=35x30%=10.50; assessment_score=45x30%=13.50
+2026-11-06T19:17:37.611+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C105,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.612+00:00,eae1dd8553ee,DRAFT_CREATED,C105,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.613+00:00,eae1dd8553ee,CANDIDATE_SCORED,C106,system,system,43.40,v1.0,score=43.40; skills_score=38x40%=15.20; experience_score=57x30%=17.10; assessment_score=37x30%=11.10
+2026-11-06T19:17:37.614+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C106,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.615+00:00,eae1dd8553ee,DRAFT_CREATED,C106,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.617+00:00,eae1dd8553ee,CANDIDATE_SCORED,C107,system,system,73.20,v1.0,score=73.20; skills_score=75x40%=30.00; experience_score=61x30%=18.30; assessment_score=83x30%=24.90
+2026-11-06T19:17:37.618+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C107,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.619+00:00,eae1dd8553ee,DRAFT_CREATED,C107,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.619+00:00,eae1dd8553ee,CANDIDATE_SCORED,C108,system,system,82.60,v1.0,score=82.60; skills_score=82x40%=32.80; experience_score=80x30%=24.00; assessment_score=86x30%=25.80
+2026-11-06T19:17:37.620+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C108,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.620+00:00,eae1dd8553ee,DRAFT_CREATED,C108,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.622+00:00,eae1dd8553ee,CANDIDATE_SCORED,C109,system,system,11.30,v1.0,score=11.30; skills_score=14x40%=5.60; experience_score=5x30%=1.50; assessment_score=14x30%=4.20
+2026-11-06T19:17:37.623+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C109,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.623+00:00,eae1dd8553ee,DRAFT_CREATED,C109,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.624+00:00,eae1dd8553ee,CANDIDATE_SCORED,C110,system,system,33.90,v1.0,score=33.90; skills_score=63x40%=25.20; experience_score=13x30%=3.90; assessment_score=16x30%=4.80
+2026-11-06T19:17:37.625+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C110,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.627+00:00,eae1dd8553ee,DRAFT_CREATED,C110,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.628+00:00,eae1dd8553ee,CANDIDATE_SCORED,C111,system,system,68.20,v1.0,score=68.20; skills_score=43x40%=17.20; experience_score=86x30%=25.80; assessment_score=84x30%=25.20
+2026-11-06T19:17:37.629+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C111,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.630+00:00,eae1dd8553ee,DRAFT_CREATED,C111,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.631+00:00,eae1dd8553ee,CANDIDATE_SCORED,C112,system,system,40.90,v1.0,score=40.90; skills_score=49x40%=19.60; experience_score=7x30%=2.10; assessment_score=64x30%=19.20
+2026-11-06T19:17:37.631+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C112,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.632+00:00,eae1dd8553ee,DRAFT_CREATED,C112,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.633+00:00,eae1dd8553ee,CANDIDATE_SCORED,C113,system,system,31.60,v1.0,score=31.60; skills_score=19x40%=7.60; experience_score=68x30%=20.40; assessment_score=12x30%=3.60
+2026-11-06T19:17:37.635+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C113,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.636+00:00,eae1dd8553ee,DRAFT_CREATED,C113,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.637+00:00,eae1dd8553ee,CANDIDATE_SCORED,C114,system,system,80.20,v1.0,score=80.20; skills_score=73x40%=29.20; experience_score=80x30%=24.00; assessment_score=90x30%=27.00
+2026-11-06T19:17:37.637+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C114,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.638+00:00,eae1dd8553ee,DRAFT_CREATED,C114,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.639+00:00,eae1dd8553ee,CANDIDATE_SCORED,C115,system,system,53.40,v1.0,score=53.40; skills_score=45x40%=18.00; experience_score=50x30%=15.00; assessment_score=68x30%=20.40
+2026-11-06T19:17:37.641+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C115,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.642+00:00,eae1dd8553ee,DRAFT_CREATED,C115,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.643+00:00,eae1dd8553ee,CANDIDATE_SCORED,C116,system,system,66.90,v1.0,score=66.90; skills_score=48x40%=19.20; experience_score=92x30%=27.60; assessment_score=67x30%=20.10
+2026-11-06T19:17:37.643+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C116,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.645+00:00,eae1dd8553ee,DRAFT_CREATED,C116,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.646+00:00,eae1dd8553ee,CANDIDATE_SCORED,C117,system,system,85.20,v1.0,score=85.20; skills_score=87x40%=34.80; experience_score=89x30%=26.70; assessment_score=79x30%=23.70
+2026-11-06T19:17:37.646+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C117,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.646+00:00,eae1dd8553ee,DRAFT_CREATED,C117,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.648+00:00,eae1dd8553ee,CANDIDATE_SCORED,C118,system,system,77.00,v1.0,score=77.00; skills_score=74x40%=29.60; experience_score=79x30%=23.70; assessment_score=79x30%=23.70
+2026-11-06T19:17:37.649+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C118,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.649+00:00,eae1dd8553ee,DRAFT_CREATED,C118,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.650+00:00,eae1dd8553ee,CANDIDATE_SCORED,C119,system,system,34.90,v1.0,score=34.90; skills_score=28x40%=11.20; experience_score=38x30%=11.40; assessment_score=41x30%=12.30
+2026-11-06T19:17:37.651+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C119,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.653+00:00,eae1dd8553ee,DRAFT_CREATED,C119,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.654+00:00,eae1dd8553ee,CANDIDATE_SCORED,C120,system,system,72.20,v1.0,score=72.20; skills_score=74x40%=29.60; experience_score=63x30%=18.90; assessment_score=79x30%=23.70
+2026-11-06T19:17:37.654+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C120,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.655+00:00,eae1dd8553ee,DRAFT_CREATED,C120,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.656+00:00,eae1dd8553ee,CANDIDATE_SCORED,C121,system,system,68.40,v1.0,score=68.40; skills_score=87x40%=34.80; experience_score=43x30%=12.90; assessment_score=69x30%=20.70
+2026-11-06T19:17:37.658+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C121,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.658+00:00,eae1dd8553ee,DRAFT_CREATED,C121,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.659+00:00,eae1dd8553ee,CANDIDATE_SCORED,C122,system,system,59.30,v1.0,score=59.30; skills_score=65x40%=26.00; experience_score=65x30%=19.50; assessment_score=46x30%=13.80
+2026-11-06T19:17:37.660+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C122,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.662+00:00,eae1dd8553ee,DRAFT_CREATED,C122,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.662+00:00,eae1dd8553ee,CANDIDATE_SCORED,C123,system,system,56.60,v1.0,score=56.60; skills_score=53x40%=21.20; experience_score=68x30%=20.40; assessment_score=50x30%=15.00
+2026-11-06T19:17:37.663+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C123,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.663+00:00,eae1dd8553ee,DRAFT_CREATED,C123,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.665+00:00,eae1dd8553ee,CANDIDATE_SCORED,C124,system,system,11.30,v1.0,score=11.30; skills_score=11x40%=4.40; experience_score=18x30%=5.40; assessment_score=5x30%=1.50
+2026-11-06T19:17:37.666+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C124,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.667+00:00,eae1dd8553ee,DRAFT_CREATED,C124,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.668+00:00,eae1dd8553ee,CANDIDATE_SCORED,C125,system,system,61.20,v1.0,score=61.20; skills_score=63x40%=25.20; experience_score=79x30%=23.70; assessment_score=41x30%=12.30
+2026-11-06T19:17:37.669+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C125,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.669+00:00,eae1dd8553ee,DRAFT_CREATED,C125,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.670+00:00,eae1dd8553ee,CANDIDATE_SCORED,C126,system,system,65.50,v1.0,score=65.50; skills_score=79x40%=31.60; experience_score=64x30%=19.20; assessment_score=49x30%=14.70
+2026-11-06T19:17:37.671+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C126,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.672+00:00,eae1dd8553ee,DRAFT_CREATED,C126,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.674+00:00,eae1dd8553ee,CANDIDATE_SCORED,C127,system,system,45.90,v1.0,score=45.90; skills_score=51x40%=20.40; experience_score=65x30%=19.50; assessment_score=20x30%=6.00
+2026-11-06T19:17:37.674+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C127,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.675+00:00,eae1dd8553ee,DRAFT_CREATED,C127,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.675+00:00,eae1dd8553ee,CANDIDATE_SCORED,C128,system,system,69.60,v1.0,score=69.60; skills_score=69x40%=27.60; experience_score=70x30%=21.00; assessment_score=70x30%=21.00
+2026-11-06T19:17:37.676+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C128,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.677+00:00,eae1dd8553ee,DRAFT_CREATED,C128,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.678+00:00,eae1dd8553ee,CANDIDATE_SCORED,C129,system,system,78.50,v1.0,score=78.50; skills_score=71x40%=28.40; experience_score=86x30%=25.80; assessment_score=81x30%=24.30
+2026-11-06T19:17:37.679+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C129,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.679+00:00,eae1dd8553ee,DRAFT_CREATED,C129,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.681+00:00,eae1dd8553ee,CANDIDATE_SCORED,C130,system,system,82.40,v1.0,score=82.40; skills_score=98x40%=39.20; experience_score=66x30%=19.80; assessment_score=78x30%=23.40
+2026-11-06T19:17:37.681+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C130,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.682+00:00,eae1dd8553ee,DRAFT_CREATED,C130,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.684+00:00,eae1dd8553ee,CANDIDATE_SCORED,C131,system,system,20.90,v1.0,score=20.90; skills_score=8x40%=3.20; experience_score=43x30%=12.90; assessment_score=16x30%=4.80
+2026-11-06T19:17:37.685+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C131,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.685+00:00,eae1dd8553ee,DRAFT_CREATED,C131,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.686+00:00,eae1dd8553ee,CANDIDATE_SCORED,C132,system,system,79.80,v1.0,score=79.80; skills_score=75x40%=30.00; experience_score=87x30%=26.10; assessment_score=79x30%=23.70
+2026-11-06T19:17:37.687+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C132,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.689+00:00,eae1dd8553ee,DRAFT_CREATED,C132,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.689+00:00,eae1dd8553ee,CANDIDATE_SCORED,C133,system,system,64.60,v1.0,score=64.60; skills_score=61x40%=24.40; experience_score=80x30%=24.00; assessment_score=54x30%=16.20
+2026-11-06T19:17:37.689+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C133,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.690+00:00,eae1dd8553ee,DRAFT_CREATED,C133,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.692+00:00,eae1dd8553ee,CANDIDATE_SCORED,C134,system,system,82.80,v1.0,score=82.80; skills_score=90x40%=36.00; experience_score=79x30%=23.70; assessment_score=77x30%=23.10
+2026-11-06T19:17:37.692+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C134,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.693+00:00,eae1dd8553ee,DRAFT_CREATED,C134,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.693+00:00,eae1dd8553ee,CANDIDATE_SCORED,C135,system,system,85.40,v1.0,score=85.40; skills_score=95x40%=38.00; experience_score=81x30%=24.30; assessment_score=77x30%=23.10
+2026-11-06T19:17:37.694+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C135,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.694+00:00,eae1dd8553ee,DRAFT_CREATED,C135,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.695+00:00,eae1dd8553ee,CANDIDATE_SCORED,C136,system,system,54.90,v1.0,score=54.90; skills_score=63x40%=25.20; experience_score=45x30%=13.50; assessment_score=54x30%=16.20
+2026-11-06T19:17:37.695+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C136,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.696+00:00,eae1dd8553ee,DRAFT_CREATED,C136,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.696+00:00,eae1dd8553ee,CANDIDATE_SCORED,C137,system,system,80.00,v1.0,score=80.00; skills_score=77x40%=30.80; experience_score=86x30%=25.80; assessment_score=78x30%=23.40
+2026-11-06T19:17:37.697+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C137,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.697+00:00,eae1dd8553ee,DRAFT_CREATED,C137,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.699+00:00,eae1dd8553ee,CANDIDATE_SCORED,C138,system,system,80.60,v1.0,score=80.60; skills_score=65x40%=26.00; experience_score=95x30%=28.50; assessment_score=87x30%=26.10
+2026-11-06T19:17:37.699+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C138,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.700+00:00,eae1dd8553ee,DRAFT_CREATED,C138,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.701+00:00,eae1dd8553ee,CANDIDATE_SCORED,C139,system,system,71.80,v1.0,score=71.80; skills_score=88x40%=35.20; experience_score=52x30%=15.60; assessment_score=70x30%=21.00
+2026-11-06T19:17:37.701+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C139,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.701+00:00,eae1dd8553ee,DRAFT_CREATED,C139,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.703+00:00,eae1dd8553ee,CANDIDATE_SCORED,C140,system,system,83.20,v1.0,score=83.20; skills_score=70x40%=28.00; experience_score=90x30%=27.00; assessment_score=94x30%=28.20
+2026-11-06T19:17:37.703+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C140,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.704+00:00,eae1dd8553ee,DRAFT_CREATED,C140,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.704+00:00,eae1dd8553ee,CANDIDATE_SCORED,C141,system,system,64.40,v1.0,score=64.40; skills_score=86x40%=34.40; experience_score=50x30%=15.00; assessment_score=50x30%=15.00
+2026-11-06T19:17:37.706+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C141,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.706+00:00,eae1dd8553ee,DRAFT_CREATED,C141,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.707+00:00,eae1dd8553ee,CANDIDATE_SCORED,C142,system,system,70.80,v1.0,score=70.80; skills_score=81x40%=32.40; experience_score=49x30%=14.70; assessment_score=79x30%=23.70
+2026-11-06T19:17:37.708+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C142,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.709+00:00,eae1dd8553ee,DRAFT_CREATED,C142,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.710+00:00,eae1dd8553ee,CANDIDATE_SCORED,C143,system,system,64.60,v1.0,score=64.60; skills_score=49x40%=19.60; experience_score=75x30%=22.50; assessment_score=75x30%=22.50
+2026-11-06T19:17:37.710+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C143,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.711+00:00,eae1dd8553ee,DRAFT_CREATED,C143,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.711+00:00,eae1dd8553ee,CANDIDATE_SCORED,C144,system,system,66.40,v1.0,score=66.40; skills_score=46x40%=18.40; experience_score=73x30%=21.90; assessment_score=87x30%=26.10
+2026-11-06T19:17:37.712+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C144,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.713+00:00,eae1dd8553ee,DRAFT_CREATED,C144,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.714+00:00,eae1dd8553ee,CANDIDATE_SCORED,C145,system,system,65.00,v1.0,score=65.00; skills_score=92x40%=36.80; experience_score=53x30%=15.90; assessment_score=41x30%=12.30
+2026-11-06T19:17:37.715+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C145,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.715+00:00,eae1dd8553ee,DRAFT_CREATED,C145,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.715+00:00,eae1dd8553ee,CANDIDATE_SCORED,C146,system,system,88.30,v1.0,score=88.30; skills_score=97x40%=38.80; experience_score=80x30%=24.00; assessment_score=85x30%=25.50
+2026-11-06T19:17:37.716+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C146,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.718+00:00,eae1dd8553ee,DRAFT_CREATED,C146,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.718+00:00,eae1dd8553ee,CANDIDATE_SCORED,C147,system,system,27.00,v1.0,score=27.00; skills_score=21x40%=8.40; experience_score=12x30%=3.60; assessment_score=50x30%=15.00
+2026-11-06T19:17:37.719+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C147,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.721+00:00,eae1dd8553ee,DRAFT_CREATED,C147,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.722+00:00,eae1dd8553ee,CANDIDATE_SCORED,C148,system,system,72.80,v1.0,score=72.80; skills_score=92x40%=36.80; experience_score=72x30%=21.60; assessment_score=48x30%=14.40
+2026-11-06T19:17:37.722+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C148,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.723+00:00,eae1dd8553ee,DRAFT_CREATED,C148,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.724+00:00,eae1dd8553ee,CANDIDATE_SCORED,C149,system,system,61.50,v1.0,score=61.50; skills_score=72x40%=28.80; experience_score=41x30%=12.30; assessment_score=68x30%=20.40
+2026-11-06T19:17:37.724+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C149,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.725+00:00,eae1dd8553ee,DRAFT_CREATED,C149,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.726+00:00,eae1dd8553ee,CANDIDATE_SCORED,C150,system,system,75.00,v1.0,score=75.00; skills_score=75x40%=30.00; experience_score=75x30%=22.50; assessment_score=75x30%=22.50
+2026-11-06T19:17:37.726+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C150,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.727+00:00,eae1dd8553ee,DRAFT_CREATED,C150,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.727+00:00,eae1dd8553ee,CANDIDATE_SCORED,C151,system,system,89.60,v1.0,score=89.60; skills_score=95x40%=38.00; experience_score=72x30%=21.60; assessment_score=100x30%=30.00
+2026-11-06T19:17:37.728+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C151,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.728+00:00,eae1dd8553ee,DRAFT_CREATED,C151,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.729+00:00,eae1dd8553ee,CANDIDATE_SCORED,C152,system,system,72.70,v1.0,score=72.70; skills_score=73x40%=29.20; experience_score=75x30%=22.50; assessment_score=70x30%=21.00
+2026-11-06T19:17:37.729+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C152,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.730+00:00,eae1dd8553ee,DRAFT_CREATED,C152,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.730+00:00,eae1dd8553ee,CANDIDATE_SCORED,C153,system,system,96.70,v1.0,score=96.70; skills_score=97x40%=38.80; experience_score=93x30%=27.90; assessment_score=100x30%=30.00
+2026-11-06T19:17:37.730+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C153,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.731+00:00,eae1dd8553ee,DRAFT_CREATED,C153,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.731+00:00,eae1dd8553ee,CANDIDATE_SCORED,C154,system,system,47.20,v1.0,score=47.20; skills_score=61x40%=24.40; experience_score=46x30%=13.80; assessment_score=30x30%=9.00
+2026-11-06T19:17:37.733+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C154,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.735+00:00,eae1dd8553ee,DRAFT_CREATED,C154,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.736+00:00,eae1dd8553ee,CANDIDATE_SCORED,C155,system,system,48.60,v1.0,score=48.60; skills_score=66x40%=26.40; experience_score=36x30%=10.80; assessment_score=38x30%=11.40
+2026-11-06T19:17:37.736+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C155,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.737+00:00,eae1dd8553ee,DRAFT_CREATED,C155,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.737+00:00,eae1dd8553ee,CANDIDATE_SCORED,C156,system,system,61.40,v1.0,score=61.40; skills_score=68x40%=27.20; experience_score=48x30%=14.40; assessment_score=66x30%=19.80
+2026-11-06T19:17:37.742+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C156,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.743+00:00,eae1dd8553ee,DRAFT_CREATED,C156,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.743+00:00,eae1dd8553ee,CANDIDATE_SCORED,C157,system,system,32.70,v1.0,score=32.70; skills_score=45x40%=18.00; experience_score=14x30%=4.20; assessment_score=35x30%=10.50
+2026-11-06T19:17:37.744+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C157,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.746+00:00,eae1dd8553ee,DRAFT_CREATED,C157,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.747+00:00,eae1dd8553ee,CANDIDATE_SCORED,C158,system,system,77.40,v1.0,score=77.40; skills_score=84x40%=33.60; experience_score=72x30%=21.60; assessment_score=74x30%=22.20
+2026-11-06T19:17:37.748+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C158,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.748+00:00,eae1dd8553ee,DRAFT_CREATED,C158,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.749+00:00,eae1dd8553ee,CANDIDATE_SCORED,C159,system,system,37.90,v1.0,score=37.90; skills_score=22x40%=8.80; experience_score=64x30%=19.20; assessment_score=33x30%=9.90
+2026-11-06T19:17:37.750+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C159,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.751+00:00,eae1dd8553ee,DRAFT_CREATED,C159,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.751+00:00,eae1dd8553ee,CANDIDATE_SCORED,C160,system,system,50.00,v1.0,score=50.00; skills_score=50x40%=20.00; experience_score=50x30%=15.00; assessment_score=50x30%=15.00
+2026-11-06T19:17:37.751+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C160,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.753+00:00,eae1dd8553ee,DRAFT_CREATED,C160,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.754+00:00,eae1dd8553ee,CANDIDATE_SCORED,C161,system,system,60.80,v1.0,score=60.80; skills_score=50x40%=20.00; experience_score=82x30%=24.60; assessment_score=54x30%=16.20
+2026-11-06T19:17:37.754+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C161,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.755+00:00,eae1dd8553ee,DRAFT_CREATED,C161,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.755+00:00,eae1dd8553ee,CANDIDATE_SCORED,C162,system,system,66.60,v1.0,score=66.60; skills_score=72x40%=28.80; experience_score=65x30%=19.50; assessment_score=61x30%=18.30
+2026-11-06T19:17:37.756+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C162,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.756+00:00,eae1dd8553ee,DRAFT_CREATED,C162,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.757+00:00,eae1dd8553ee,CANDIDATE_SCORED,C163,system,system,63.30,v1.0,score=63.30; skills_score=60x40%=24.00; experience_score=45x30%=13.50; assessment_score=86x30%=25.80
+2026-11-06T19:17:37.757+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C163,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.757+00:00,eae1dd8553ee,DRAFT_CREATED,C163,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.759+00:00,eae1dd8553ee,CANDIDATE_SCORED,C164,system,system,71.10,v1.0,score=71.10; skills_score=75x40%=30.00; experience_score=69x30%=20.70; assessment_score=68x30%=20.40
+2026-11-06T19:17:37.759+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C164,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.760+00:00,eae1dd8553ee,DRAFT_CREATED,C164,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.762+00:00,eae1dd8553ee,CANDIDATE_SCORED,C165,system,system,26.40,v1.0,score=26.40; skills_score=42x40%=16.80; experience_score=13x30%=3.90; assessment_score=19x30%=5.70
+2026-11-06T19:17:37.762+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C165,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.763+00:00,eae1dd8553ee,DRAFT_CREATED,C165,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.763+00:00,eae1dd8553ee,CANDIDATE_SCORED,C166,system,system,51.90,v1.0,score=51.90; skills_score=45x40%=18.00; experience_score=56x30%=16.80; assessment_score=57x30%=17.10
+2026-11-06T19:17:37.764+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C166,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.764+00:00,eae1dd8553ee,DRAFT_CREATED,C166,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.764+00:00,eae1dd8553ee,CANDIDATE_SCORED,C167,system,system,63.60,v1.0,score=63.60; skills_score=57x40%=22.80; experience_score=88x30%=26.40; assessment_score=48x30%=14.40
+2026-11-06T19:17:37.764+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C167,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.765+00:00,eae1dd8553ee,DRAFT_CREATED,C167,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.768+00:00,eae1dd8553ee,CANDIDATE_SCORED,C168,system,system,62.90,v1.0,score=62.90; skills_score=65x40%=26.00; experience_score=49x30%=14.70; assessment_score=74x30%=22.20
+2026-11-06T19:17:37.769+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C168,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.771+00:00,eae1dd8553ee,DRAFT_CREATED,C168,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.772+00:00,eae1dd8553ee,CANDIDATE_SCORED,C169,system,system,35.20,v1.0,score=35.20; skills_score=46x40%=18.40; experience_score=16x30%=4.80; assessment_score=40x30%=12.00
+2026-11-06T19:17:37.772+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C169,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.773+00:00,eae1dd8553ee,DRAFT_CREATED,C169,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.773+00:00,eae1dd8553ee,CANDIDATE_SCORED,C170,system,system,57.10,v1.0,score=57.10; skills_score=67x40%=26.80; experience_score=44x30%=13.20; assessment_score=57x30%=17.10
+2026-11-06T19:17:37.774+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C170,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.774+00:00,eae1dd8553ee,DRAFT_CREATED,C170,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.776+00:00,eae1dd8553ee,CANDIDATE_SCORED,C171,system,system,66.70,v1.0,score=66.70; skills_score=91x40%=36.40; experience_score=56x30%=16.80; assessment_score=45x30%=13.50
+2026-11-06T19:17:37.776+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C171,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.777+00:00,eae1dd8553ee,DRAFT_CREATED,C171,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.778+00:00,eae1dd8553ee,CANDIDATE_SCORED,C172,system,system,51.50,v1.0,score=51.50; skills_score=47x40%=18.80; experience_score=69x30%=20.70; assessment_score=40x30%=12.00
+2026-11-06T19:17:37.779+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C172,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.779+00:00,eae1dd8553ee,DRAFT_CREATED,C172,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.780+00:00,eae1dd8553ee,CANDIDATE_SCORED,C173,system,system,24.90,v1.0,score=24.90; skills_score=39x40%=15.60; experience_score=21x30%=6.30; assessment_score=10x30%=3.00
+2026-11-06T19:17:37.781+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C173,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.781+00:00,eae1dd8553ee,DRAFT_CREATED,C173,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.782+00:00,eae1dd8553ee,CANDIDATE_SCORED,C174,system,system,75.60,v1.0,score=75.60; skills_score=72x40%=28.80; experience_score=75x30%=22.50; assessment_score=81x30%=24.30
+2026-11-06T19:17:37.782+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C174,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.783+00:00,eae1dd8553ee,DRAFT_CREATED,C174,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.784+00:00,eae1dd8553ee,CANDIDATE_SCORED,C175,system,system,84.70,v1.0,score=84.70; skills_score=88x40%=35.20; experience_score=80x30%=24.00; assessment_score=85x30%=25.50
+2026-11-06T19:17:37.786+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C175,system,system,MANUAL_REVIEW,v1.0,"Role mismatch: applied for 'Data Analyst', target role is 'Software Engineer'"
+2026-11-06T19:17:37.787+00:00,eae1dd8553ee,DRAFT_CREATED,C175,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.788+00:00,eae1dd8553ee,CANDIDATE_SCORED,C176,system,system,65.30,v1.0,score=65.30; skills_score=59x40%=23.60; experience_score=80x30%=24.00; assessment_score=59x30%=17.70
+2026-11-06T19:17:37.788+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C176,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.789+00:00,eae1dd8553ee,DRAFT_CREATED,C176,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.790+00:00,eae1dd8553ee,CANDIDATE_SCORED,C177,system,system,90.20,v1.0,score=90.20; skills_score=83x40%=33.20; experience_score=93x30%=27.90; assessment_score=97x30%=29.10
+2026-11-06T19:17:37.790+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C177,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.791+00:00,eae1dd8553ee,DRAFT_CREATED,C177,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.791+00:00,eae1dd8553ee,CANDIDATE_SCORED,C178,system,system,92.20,v1.0,score=92.20; skills_score=100x40%=40.00; experience_score=77x30%=23.10; assessment_score=97x30%=29.10
+2026-11-06T19:17:37.793+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C178,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.794+00:00,eae1dd8553ee,DRAFT_CREATED,C178,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.795+00:00,eae1dd8553ee,CANDIDATE_SCORED,C179,system,system,45.60,v1.0,score=45.60; skills_score=18x40%=7.20; experience_score=60x30%=18.00; assessment_score=68x30%=20.40
+2026-11-06T19:17:37.795+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C179,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.796+00:00,eae1dd8553ee,DRAFT_CREATED,C179,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.796+00:00,eae1dd8553ee,CANDIDATE_SCORED,C180,system,system,37.40,v1.0,score=37.40; skills_score=44x40%=17.60; experience_score=32x30%=9.60; assessment_score=34x30%=10.20
+2026-11-06T19:17:37.797+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C180,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.799+00:00,eae1dd8553ee,DRAFT_CREATED,C180,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.799+00:00,eae1dd8553ee,CANDIDATE_SCORED,C181,system,system,40.40,v1.0,score=40.40; skills_score=56x40%=22.40; experience_score=49x30%=14.70; assessment_score=11x30%=3.30
+2026-11-06T19:17:37.800+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C181,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.801+00:00,eae1dd8553ee,DRAFT_CREATED,C181,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.801+00:00,eae1dd8553ee,CANDIDATE_SCORED,C182,system,system,40.30,v1.0,score=40.30; skills_score=37x40%=14.80; experience_score=60x30%=18.00; assessment_score=25x30%=7.50
+2026-11-06T19:17:37.802+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C182,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.802+00:00,eae1dd8553ee,DRAFT_CREATED,C182,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.804+00:00,eae1dd8553ee,CANDIDATE_SCORED,C183,system,system,70.80,v1.0,score=70.80; skills_score=72x40%=28.80; experience_score=82x30%=24.60; assessment_score=58x30%=17.40
+2026-11-06T19:17:37.804+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C183,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.805+00:00,eae1dd8553ee,DRAFT_CREATED,C183,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.806+00:00,eae1dd8553ee,CANDIDATE_SCORED,C184,system,system,77.80,v1.0,score=77.80; skills_score=67x40%=26.80; experience_score=94x30%=28.20; assessment_score=76x30%=22.80
+2026-11-06T19:17:37.807+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C184,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.807+00:00,eae1dd8553ee,DRAFT_CREATED,C184,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.808+00:00,eae1dd8553ee,CANDIDATE_SCORED,C185,system,system,28.70,v1.0,score=28.70; skills_score=5x40%=2.00; experience_score=38x30%=11.40; assessment_score=51x30%=15.30
+2026-11-06T19:17:37.809+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C185,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.809+00:00,eae1dd8553ee,DRAFT_CREATED,C185,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.811+00:00,eae1dd8553ee,CANDIDATE_SCORED,C186,system,system,52.30,v1.0,score=52.30; skills_score=55x40%=22.00; experience_score=42x30%=12.60; assessment_score=59x30%=17.70
+2026-11-06T19:17:37.812+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C186,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.812+00:00,eae1dd8553ee,DRAFT_CREATED,C186,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.813+00:00,eae1dd8553ee,CANDIDATE_SCORED,C187,system,system,53.50,v1.0,score=53.50; skills_score=40x40%=16.00; experience_score=61x30%=18.30; assessment_score=64x30%=19.20
+2026-11-06T19:17:37.813+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C187,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.814+00:00,eae1dd8553ee,DRAFT_CREATED,C187,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.815+00:00,eae1dd8553ee,CANDIDATE_SCORED,C188,system,system,24.30,v1.0,score=24.30; skills_score=30x40%=12.00; experience_score=36x30%=10.80; assessment_score=5x30%=1.50
+2026-11-06T19:17:37.816+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C188,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.816+00:00,eae1dd8553ee,DRAFT_CREATED,C188,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.817+00:00,eae1dd8553ee,CANDIDATE_SCORED,C189,system,system,62.20,v1.0,score=62.20; skills_score=49x40%=19.60; experience_score=65x30%=19.50; assessment_score=77x30%=23.10
+2026-11-06T19:17:37.819+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C189,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.819+00:00,eae1dd8553ee,DRAFT_CREATED,C189,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.820+00:00,eae1dd8553ee,CANDIDATE_SCORED,C190,system,system,42.60,v1.0,score=42.60; skills_score=45x40%=18.00; experience_score=40x30%=12.00; assessment_score=42x30%=12.60
+2026-11-06T19:17:37.821+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C190,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.822+00:00,eae1dd8553ee,DRAFT_CREATED,C190,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.823+00:00,eae1dd8553ee,CANDIDATE_SCORED,C191,system,system,82.50,v1.0,score=82.50; skills_score=84x40%=33.60; experience_score=84x30%=25.20; assessment_score=79x30%=23.70
+2026-11-06T19:17:37.824+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C191,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.824+00:00,eae1dd8553ee,DRAFT_CREATED,C191,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.825+00:00,eae1dd8553ee,CANDIDATE_SCORED,C192,system,system,74.50,v1.0,score=74.50; skills_score=88x40%=35.20; experience_score=49x30%=14.70; assessment_score=82x30%=24.60
+2026-11-06T19:17:37.827+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C192,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.827+00:00,eae1dd8553ee,DRAFT_CREATED,C192,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.828+00:00,eae1dd8553ee,CANDIDATE_SCORED,C193,system,system,70.40,v1.0,score=70.40; skills_score=86x40%=34.40; experience_score=71x30%=21.30; assessment_score=49x30%=14.70
+2026-11-06T19:17:37.829+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C193,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.830+00:00,eae1dd8553ee,DRAFT_CREATED,C193,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.830+00:00,eae1dd8553ee,CANDIDATE_SCORED,C194,system,system,78.80,v1.0,score=78.80; skills_score=74x40%=29.60; experience_score=67x30%=20.10; assessment_score=97x30%=29.10
+2026-11-06T19:17:37.831+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C194,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.832+00:00,eae1dd8553ee,DRAFT_CREATED,C194,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.833+00:00,eae1dd8553ee,CANDIDATE_SCORED,C195,system,system,87.70,v1.0,score=87.70; skills_score=73x40%=29.20; experience_score=98x30%=29.40; assessment_score=97x30%=29.10
+2026-11-06T19:17:37.833+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C195,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.834+00:00,eae1dd8553ee,DRAFT_CREATED,C195,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.835+00:00,eae1dd8553ee,CANDIDATE_SCORED,C196,system,system,74.10,v1.0,score=74.10; skills_score=84x40%=33.60; experience_score=81x30%=24.30; assessment_score=54x30%=16.20
+2026-11-06T19:17:37.835+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C196,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.836+00:00,eae1dd8553ee,DRAFT_CREATED,C196,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.837+00:00,eae1dd8553ee,CANDIDATE_SCORED,C197,system,system,62.10,v1.0,score=62.10; skills_score=48x40%=19.20; experience_score=80x30%=24.00; assessment_score=63x30%=18.90
+2026-11-06T19:17:37.837+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C197,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.839+00:00,eae1dd8553ee,DRAFT_CREATED,C197,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.840+00:00,eae1dd8553ee,CANDIDATE_SCORED,C198,system,system,80.20,v1.0,score=80.20; skills_score=100x40%=40.00; experience_score=68x30%=20.40; assessment_score=66x30%=19.80
+2026-11-06T19:17:37.840+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C198,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.841+00:00,eae1dd8553ee,DRAFT_CREATED,C198,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.842+00:00,eae1dd8553ee,CANDIDATE_SCORED,C199,system,system,39.70,v1.0,score=39.70; skills_score=67x40%=26.80; experience_score=38x30%=11.40; assessment_score=5x30%=1.50
+2026-11-06T19:17:37.842+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C199,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.844+00:00,eae1dd8553ee,DRAFT_CREATED,C199,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.844+00:00,eae1dd8553ee,CANDIDATE_SCORED,C200,system,system,64.50,v1.0,score=64.50; skills_score=45x40%=18.00; experience_score=82x30%=24.60; assessment_score=73x30%=21.90
+2026-11-06T19:17:37.845+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C200,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.846+00:00,eae1dd8553ee,DRAFT_CREATED,C200,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.847+00:00,eae1dd8553ee,CANDIDATE_SCORED,C208,system,system,77.40,v1.0,score=77.40; skills_score=81x40%=32.40; experience_score=69x30%=20.70; assessment_score=81x30%=24.30
+2026-11-06T19:17:37.848+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C208,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.850+00:00,eae1dd8553ee,DRAFT_CREATED,C208,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.850+00:00,eae1dd8553ee,CANDIDATE_SCORED,C209,system,system,72.00,v1.0,score=72.00; skills_score=54x40%=21.60; experience_score=87x30%=26.10; assessment_score=81x30%=24.30
+2026-11-06T19:17:37.851+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C209,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.852+00:00,eae1dd8553ee,DRAFT_CREATED,C209,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.852+00:00,eae1dd8553ee,CANDIDATE_SCORED,C210,system,system,81.00,v1.0,score=81.00; skills_score=69x40%=27.60; experience_score=95x30%=28.50; assessment_score=83x30%=24.90
+2026-11-06T19:17:37.853+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C210,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.854+00:00,eae1dd8553ee,DRAFT_CREATED,C210,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.854+00:00,eae1dd8553ee,CANDIDATE_SCORED,C211,system,system,49.99,v1.0,score=49.99; skills_score=55x40%=22.00; experience_score=45x30%=13.50; assessment_score=48.3x30%=14.49
+2026-11-06T19:17:37.855+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C211,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.855+00:00,eae1dd8553ee,DRAFT_CREATED,C211,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.856+00:00,eae1dd8553ee,CANDIDATE_SCORED,C212,system,system,75.60,v1.0,score=75.60; skills_score=69x40%=27.60; experience_score=74x30%=22.20; assessment_score=86x30%=25.80
+2026-11-06T19:17:37.856+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C212,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.857+00:00,eae1dd8553ee,DRAFT_CREATED,C212,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.857+00:00,eae1dd8553ee,CANDIDATE_SCORED,C213,system,system,90.20,v1.0,score=90.20; skills_score=92x40%=36.80; experience_score=88x30%=26.40; assessment_score=90x30%=27.00
+2026-11-06T19:17:37.859+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C213,system,system,MANUAL_REVIEW,v1.0,"Role mismatch: applied for 'Product Manager', target role is 'Software Engineer'"
+2026-11-06T19:17:37.860+00:00,eae1dd8553ee,DRAFT_CREATED,C213,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.860+00:00,eae1dd8553ee,CANDIDATE_SCORED,C214,system,system,30.40,v1.0,score=30.40; skills_score=22x40%=8.80; experience_score=6x30%=1.80; assessment_score=66x30%=19.80
+2026-11-06T19:17:37.861+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C214,system,system,NOT_SHORTLISTED_REVIEW,v1.0,Score < 50
+2026-11-06T19:17:37.862+00:00,eae1dd8553ee,DRAFT_CREATED,C214,system,system,NOT_SHORTLISTED_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.862+00:00,eae1dd8553ee,CANDIDATE_SCORED,C215,system,system,72.20,v1.0,score=72.20; skills_score=83x40%=33.20; experience_score=46x30%=13.80; assessment_score=84x30%=25.20
+2026-11-06T19:17:37.865+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C215,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.865+00:00,eae1dd8553ee,DRAFT_CREATED,C215,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.865+00:00,eae1dd8553ee,CANDIDATE_SCORED,C216,system,system,87.50,v1.0,score=87.50; skills_score=83x40%=33.20; experience_score=98x30%=29.40; assessment_score=83x30%=24.90
+2026-11-06T19:17:37.866+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C216,system,system,SHORTLIST_REVIEW,v1.0,Score >= 75
+2026-11-06T19:17:37.866+00:00,eae1dd8553ee,DRAFT_CREATED,C216,system,system,SHORTLIST_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.867+00:00,eae1dd8553ee,CANDIDATE_SCORED,C217,system,system,72.20,v1.0,score=72.20; skills_score=89x40%=35.60; experience_score=47x30%=14.10; assessment_score=75x30%=22.50
+2026-11-06T19:17:37.867+00:00,eae1dd8553ee,CANDIDATE_ROUTED,C217,system,system,MANUAL_REVIEW,v1.0,50 <= score < 75
+2026-11-06T19:17:37.869+00:00,eae1dd8553ee,DRAFT_CREATED,C217,system,system,MANUAL_REVIEW,v1.0,label=DRAFT; source=template
+2026-11-06T19:17:37.878+00:00,eae1dd8553ee,RUN_COMPLETED,,system,system,COMPLETED,v1.0,total=120; valid=110; quarantined=10; SHORTLIST_REVIEW=31; MANUAL_REVIEW=51; NOT_SHORTLISTED_REVIEW=28

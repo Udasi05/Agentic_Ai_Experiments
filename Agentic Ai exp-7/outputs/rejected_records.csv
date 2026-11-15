@@ -1,0 +1,11 @@
+row,candidate_id,reason
+102,C201,Missing field: email
+103,C202,Missing field: email
+104,C203,Missing field: email
+105,C110,Duplicate candidate_id (first seen at row 11)
+106,C120,Duplicate candidate_id (first seen at row 21)
+107,C130,Duplicate candidate_id (first seen at row 31)
+108,C204,skills_score must be between 0 and 100
+109,C205,experience_score must be between 0 and 100
+110,C206,Invalid numeric value: skills_score
+111,C207,Missing field: assessment_score

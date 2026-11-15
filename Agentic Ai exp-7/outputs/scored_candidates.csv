@@ -1,0 +1,111 @@
+candidate_id,role,skills_score,experience_score,assessment_score,score,proposed_status,routing_reason,rule_version
+C101,Software Engineer,85,70,90,82.00,SHORTLIST_REVIEW,Score >= 75,v1.0
+C102,Software Engineer,70,80,75,74.50,MANUAL_REVIEW,50 <= score < 75,v1.0
+C103,Software Engineer,55,50,60,55.00,MANUAL_REVIEW,50 <= score < 75,v1.0
+C104,Software Engineer,90,85,95,90.00,SHORTLIST_REVIEW,Score >= 75,v1.0
+C105,Software Engineer,40,35,45,40.00,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C106,Software Engineer,38,57,37,43.40,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C107,Software Engineer,75,61,83,73.20,MANUAL_REVIEW,50 <= score < 75,v1.0
+C108,Software Engineer,82,80,86,82.60,SHORTLIST_REVIEW,Score >= 75,v1.0
+C109,Software Engineer,14,5,14,11.30,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C110,Software Engineer,63,13,16,33.90,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C111,Software Engineer,43,86,84,68.20,MANUAL_REVIEW,50 <= score < 75,v1.0
+C112,Software Engineer,49,7,64,40.90,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C113,Software Engineer,19,68,12,31.60,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C114,Software Engineer,73,80,90,80.20,SHORTLIST_REVIEW,Score >= 75,v1.0
+C115,Software Engineer,45,50,68,53.40,MANUAL_REVIEW,50 <= score < 75,v1.0
+C116,Software Engineer,48,92,67,66.90,MANUAL_REVIEW,50 <= score < 75,v1.0
+C117,Software Engineer,87,89,79,85.20,SHORTLIST_REVIEW,Score >= 75,v1.0
+C118,Software Engineer,74,79,79,77.00,SHORTLIST_REVIEW,Score >= 75,v1.0
+C119,Software Engineer,28,38,41,34.90,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C120,Software Engineer,74,63,79,72.20,MANUAL_REVIEW,50 <= score < 75,v1.0
+C121,Software Engineer,87,43,69,68.40,MANUAL_REVIEW,50 <= score < 75,v1.0
+C122,Software Engineer,65,65,46,59.30,MANUAL_REVIEW,50 <= score < 75,v1.0
+C123,Software Engineer,53,68,50,56.60,MANUAL_REVIEW,50 <= score < 75,v1.0
+C124,Software Engineer,11,18,5,11.30,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C125,Software Engineer,63,79,41,61.20,MANUAL_REVIEW,50 <= score < 75,v1.0
+C126,Software Engineer,79,64,49,65.50,MANUAL_REVIEW,50 <= score < 75,v1.0
+C127,Software Engineer,51,65,20,45.90,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C128,Software Engineer,69,70,70,69.60,MANUAL_REVIEW,50 <= score < 75,v1.0
+C129,Software Engineer,71,86,81,78.50,SHORTLIST_REVIEW,Score >= 75,v1.0
+C130,Software Engineer,98,66,78,82.40,SHORTLIST_REVIEW,Score >= 75,v1.0
+C131,Software Engineer,8,43,16,20.90,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C132,Software Engineer,75,87,79,79.80,SHORTLIST_REVIEW,Score >= 75,v1.0
+C133,Software Engineer,61,80,54,64.60,MANUAL_REVIEW,50 <= score < 75,v1.0
+C134,Software Engineer,90,79,77,82.80,SHORTLIST_REVIEW,Score >= 75,v1.0
+C135,Software Engineer,95,81,77,85.40,SHORTLIST_REVIEW,Score >= 75,v1.0
+C136,Software Engineer,63,45,54,54.90,MANUAL_REVIEW,50 <= score < 75,v1.0
+C137,Software Engineer,77,86,78,80.00,SHORTLIST_REVIEW,Score >= 75,v1.0
+C138,Software Engineer,65,95,87,80.60,SHORTLIST_REVIEW,Score >= 75,v1.0
+C139,Software Engineer,88,52,70,71.80,MANUAL_REVIEW,50 <= score < 75,v1.0
+C140,Software Engineer,70,90,94,83.20,SHORTLIST_REVIEW,Score >= 75,v1.0
+C141,Software Engineer,86,50,50,64.40,MANUAL_REVIEW,50 <= score < 75,v1.0
+C142,Software Engineer,81,49,79,70.80,MANUAL_REVIEW,50 <= score < 75,v1.0
+C143,Software Engineer,49,75,75,64.60,MANUAL_REVIEW,50 <= score < 75,v1.0
+C144,Software Engineer,46,73,87,66.40,MANUAL_REVIEW,50 <= score < 75,v1.0
+C145,Software Engineer,92,53,41,65.00,MANUAL_REVIEW,50 <= score < 75,v1.0
+C146,Software Engineer,97,80,85,88.30,SHORTLIST_REVIEW,Score >= 75,v1.0
+C147,Software Engineer,21,12,50,27.00,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C148,Software Engineer,92,72,48,72.80,MANUAL_REVIEW,50 <= score < 75,v1.0
+C149,Software Engineer,72,41,68,61.50,MANUAL_REVIEW,50 <= score < 75,v1.0
+C150,Software Engineer,75,75,75,75.00,SHORTLIST_REVIEW,Score >= 75,v1.0
+C151,Software Engineer,95,72,100,89.60,SHORTLIST_REVIEW,Score >= 75,v1.0
+C152,Software Engineer,73,75,70,72.70,MANUAL_REVIEW,50 <= score < 75,v1.0
+C153,Software Engineer,97,93,100,96.70,SHORTLIST_REVIEW,Score >= 75,v1.0
+C154,Software Engineer,61,46,30,47.20,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C155,Software Engineer,66,36,38,48.60,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C156,Software Engineer,68,48,66,61.40,MANUAL_REVIEW,50 <= score < 75,v1.0
+C157,Software Engineer,45,14,35,32.70,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C158,Software Engineer,84,72,74,77.40,SHORTLIST_REVIEW,Score >= 75,v1.0
+C159,Software Engineer,22,64,33,37.90,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C160,Software Engineer,50,50,50,50.00,MANUAL_REVIEW,50 <= score < 75,v1.0
+C161,Software Engineer,50,82,54,60.80,MANUAL_REVIEW,50 <= score < 75,v1.0
+C162,Software Engineer,72,65,61,66.60,MANUAL_REVIEW,50 <= score < 75,v1.0
+C163,Software Engineer,60,45,86,63.30,MANUAL_REVIEW,50 <= score < 75,v1.0
+C164,Software Engineer,75,69,68,71.10,MANUAL_REVIEW,50 <= score < 75,v1.0
+C165,Software Engineer,42,13,19,26.40,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C166,Software Engineer,45,56,57,51.90,MANUAL_REVIEW,50 <= score < 75,v1.0
+C167,Software Engineer,57,88,48,63.60,MANUAL_REVIEW,50 <= score < 75,v1.0
+C168,Software Engineer,65,49,74,62.90,MANUAL_REVIEW,50 <= score < 75,v1.0
+C169,Software Engineer,46,16,40,35.20,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C170,Software Engineer,67,44,57,57.10,MANUAL_REVIEW,50 <= score < 75,v1.0
+C171,Software Engineer,91,56,45,66.70,MANUAL_REVIEW,50 <= score < 75,v1.0
+C172,Software Engineer,47,69,40,51.50,MANUAL_REVIEW,50 <= score < 75,v1.0
+C173,Software Engineer,39,21,10,24.90,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C174,Software Engineer,72,75,81,75.60,SHORTLIST_REVIEW,Score >= 75,v1.0
+C175,Data Analyst,88,80,85,84.70,MANUAL_REVIEW,"Role mismatch: applied for 'Data Analyst', target role is 'Software Engineer'",v1.0
+C176,Software Engineer,59,80,59,65.30,MANUAL_REVIEW,50 <= score < 75,v1.0
+C177,Software Engineer,83,93,97,90.20,SHORTLIST_REVIEW,Score >= 75,v1.0
+C178,Software Engineer,100,77,97,92.20,SHORTLIST_REVIEW,Score >= 75,v1.0
+C179,Software Engineer,18,60,68,45.60,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C180,Software Engineer,44,32,34,37.40,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C181,Software Engineer,56,49,11,40.40,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C182,Software Engineer,37,60,25,40.30,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C183,Software Engineer,72,82,58,70.80,MANUAL_REVIEW,50 <= score < 75,v1.0
+C184,Software Engineer,67,94,76,77.80,SHORTLIST_REVIEW,Score >= 75,v1.0
+C185,Software Engineer,5,38,51,28.70,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C186,Software Engineer,55,42,59,52.30,MANUAL_REVIEW,50 <= score < 75,v1.0
+C187,Software Engineer,40,61,64,53.50,MANUAL_REVIEW,50 <= score < 75,v1.0
+C188,Software Engineer,30,36,5,24.30,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C189,Software Engineer,49,65,77,62.20,MANUAL_REVIEW,50 <= score < 75,v1.0
+C190,Software Engineer,45,40,42,42.60,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C191,Software Engineer,84,84,79,82.50,SHORTLIST_REVIEW,Score >= 75,v1.0
+C192,Software Engineer,88,49,82,74.50,MANUAL_REVIEW,50 <= score < 75,v1.0
+C193,Software Engineer,86,71,49,70.40,MANUAL_REVIEW,50 <= score < 75,v1.0
+C194,Software Engineer,74,67,97,78.80,SHORTLIST_REVIEW,Score >= 75,v1.0
+C195,Software Engineer,73,98,97,87.70,SHORTLIST_REVIEW,Score >= 75,v1.0
+C196,Software Engineer,84,81,54,74.10,MANUAL_REVIEW,50 <= score < 75,v1.0
+C197,Software Engineer,48,80,63,62.10,MANUAL_REVIEW,50 <= score < 75,v1.0
+C198,Software Engineer,100,68,66,80.20,SHORTLIST_REVIEW,Score >= 75,v1.0
+C199,Software Engineer,67,38,5,39.70,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C200,Software Engineer,45,82,73,64.50,MANUAL_REVIEW,50 <= score < 75,v1.0
+C208,Software Engineer,81,69,81,77.40,SHORTLIST_REVIEW,Score >= 75,v1.0
+C209,Software Engineer,54,87,81,72.00,MANUAL_REVIEW,50 <= score < 75,v1.0
+C210,Software Engineer,69,95,83,81.00,SHORTLIST_REVIEW,Score >= 75,v1.0
+C211,Software Engineer,55,45,48.3,49.99,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C212,Software Engineer,69,74,86,75.60,SHORTLIST_REVIEW,Score >= 75,v1.0
+C213,Product Manager,92,88,90,90.20,MANUAL_REVIEW,"Role mismatch: applied for 'Product Manager', target role is 'Software Engineer'",v1.0
+C214,Software Engineer,22,6,66,30.40,NOT_SHORTLISTED_REVIEW,Score < 50,v1.0
+C215,Software Engineer,83,46,84,72.20,MANUAL_REVIEW,50 <= score < 75,v1.0
+C216,Software Engineer,83,98,83,87.50,SHORTLIST_REVIEW,Score >= 75,v1.0
+C217,Software Engineer,89,47,75,72.20,MANUAL_REVIEW,50 <= score < 75,v1.0

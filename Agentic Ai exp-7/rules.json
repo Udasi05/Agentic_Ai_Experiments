@@ -1,0 +1,13 @@
+{
+  "rule_version": "v1.0",
+  "target_role": "Software Engineer",
+  "criteria": {
+    "skills_score": 40,
+    "experience_score": 30,
+    "assessment_score": 30
+  },
+  "thresholds": {
+    "shortlist_review": 75,
+    "manual_review": 50
+  }
+}
